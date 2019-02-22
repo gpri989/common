@@ -29,3 +29,7 @@
 /sys/devices/virtual/input/input[0-9]+/stk3x[0-9]x-proximity(/.*)?                u:object_r:sysfs_sensors:s0
 
 /sys/module/stk3x[0-9]x/parameters/call_status_flag                               u:object_r:sysfs_call_status:s0
+
+# Kcal
+/sys/devices/platform/kcal_ctrl.0(/.*)?                                       u:object_r:kcal_dev:s0
+/sys/bus/platform/drivers/kcal_ctrl(/.*)?                                     u:object_r:kcal_dev:s0
