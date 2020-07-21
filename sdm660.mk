@@ -408,7 +408,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc \
     init.zenparts.rc \
-    init.spectrum.rc
+    init.spectrum.rc \
+    init.safailnet.rc
 
 # Seccomp
 PRODUCT_COPY_FILES += \
