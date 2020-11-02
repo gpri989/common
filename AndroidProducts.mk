@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 The MSM-Xtended Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X01BD.mk
+    $(LOCAL_DIR)/xtended_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X01BD-userdebug
+    xtended_X01BD-userdebug
